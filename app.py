@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/login', methods=['GET'])
 def login():
     """Возвращает логин автора"""
-    return jsonify({"author": "your_login"})  # Замените your_login на ваш логин
+    return jsonify({"author": "1153332"})  # Замените your_login на ваш логин
 
 @app.route('/size2json', methods=['POST'])
 def size2json():
